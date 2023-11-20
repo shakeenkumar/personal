@@ -92,7 +92,7 @@ footer .social img {
     margin-top: 50px;
 }
 
-.rivers-card, .camping-card, .rapids-card {
+.sustainable-card, .eco-friendly-card, .environmental-blog-card {
     margin: 200px 0;
 }
 
@@ -115,7 +115,7 @@ footer {
     border: 10px solid #d9c2a3; /* You can use your own color here */
 }
 
-main section img {
+.HUB{
     box-sizing: border-box;
 }
 footer {
@@ -286,17 +286,17 @@ nav {
 }
 
 /* Place the grid items within the main grid */
-.rivers-card {
-    grid-column: 2 / span 3;
+.sustainable-card {
+    grid-column:  2/ span 3;
     grid-row: 2 / span 1;
 }
 
-.camping-card {
+.eco-friendly-card {
     grid-column: 5 / span 3;
     grid-row: 2 / span 1;
 }
 
-.rapids-card {
+.environmental-blog-card {
     grid-column: 8 / span 3;
     grid-row: 2 / span 1;
 }
@@ -337,7 +337,7 @@ nav {
 }
 
 /* Add box shadow to the mountains image */
-.mountains {
+.HUB {
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
