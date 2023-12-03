@@ -95,12 +95,10 @@ footer .social img {
 .tip1-card {
     margin: 200px 0;
     width: 500px;
-    height: 400px;
 }
 .Tip2-card {
     margin: 200px 0;
-    width: 600px;
-    height: 1000px;
+    width: 600px
 }
 footer {
     margin-top: 200px;
