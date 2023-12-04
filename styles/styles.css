@@ -196,8 +196,8 @@ nav {
 }
 /* Main Grid */
 /* Set the width of .card-img and .mountains to 100% */
-.card-img, .mountains {
-    width: 100%;
+.card-img, .HUB {
+    width: 90%;
 }
 
 /* Create the main grid */
@@ -206,30 +206,6 @@ nav {
     grid-template-columns: repeat(10, 1fr); /* 10 equal columns */
     gap: 20px; /* Adjust the gap between items as needed */
 }
- /* Subpage-specific styles */
-.subpage 
-
-/* Place the grid items within the main grid */
-.tip1-card {
-    grid-column:  2/ span 3;
-    grid-row: 2 / span 1;
-}
-
-.Tip2-card {
-    grid-column: 6 / span 3;
-    grid-row: 2 / span 1;
-}
-.Final-card {
-    grid-column: 2 / span 6;
-    grid-row: 6 / span 3;
-}
-.Final-card p {
-    font-size: 16px;
-    color: #333;
-    margin-top: 10px; 
-}
-
-/* Add or modify these styles in your CSS file */
 
 /* Place the grid items within the main grid */
 .salmon-card {
@@ -279,7 +255,7 @@ nav {
     grid-row: 4 / span 6;
 }
 
-.mountains {
+.HUB {
     grid-column: 2 / span 6;
     grid-row: 5 / span 3;
 }
@@ -310,7 +286,7 @@ nav {
 }
 
 /* Add box shadow to the mountains image */
-.Final {
+.HUB {
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
@@ -342,7 +318,7 @@ nav {
         font-size: 25px;
         color: #89b511;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .sustainable-card, .eco-friendly-card, .environmental-blog-card { 
         margin: 50px auto;
         width: 60%;
     }
