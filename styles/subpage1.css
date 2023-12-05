@@ -43,16 +43,29 @@ h2 {
 }
 
 /* Add padding */
+/* Logo styling */
 #logo1 {
-    padding-top: 5px;
+    padding-top: 45px;
+    padding-bottom: 5px;
+    width: 50px; /* Set a specific width for your logo */
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; /* Align items to the bottom */
+    padding-bottom: 50px; /* Add padding at the bottom */
+    background-color: #333333; /* Dark gray background color */
 }
 
 nav a {
     text-decoration: none;
     color: #fcfbfb;
+    padding: 15px;
     text-align: center;
-    padding: 35px;
 }
+/* ... (other styles) ... */
 
 .book, .join {
     padding: 15px 30px;
@@ -200,7 +213,7 @@ nav {
 }
 /* Main Grid */
 /* Set the width of .card-img and .mountains to 100% */
-.card-img, .mountains {
+.card-img, .Final {
     width: 100%;
 }
 
@@ -276,7 +289,7 @@ nav {
 
 }
 
-/* Add box shadow to the mountains image */
+/* Add box shadow to the final image */
 .Final {
     width: 100%;
     grid-column: 3/9;
@@ -353,6 +366,7 @@ nav a:hover {
     background-color: #0077cc; /* Blue background color on hover */
     color: #ffffff; /* White text color on hover */
     text-decoration: underline;
+    text-align: center;
 }
 
 /* Background color for .home-title */
