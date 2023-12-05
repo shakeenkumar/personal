@@ -45,8 +45,7 @@ h2 {
 /* Add padding */
 /* Logo styling */
 #logo1 {
-    padding-top: 45px;
-    padding-bottom: 5px;
+    padding-top:30px;
     width: 50px; /* Set a specific width for your logo */
 }
 
@@ -54,8 +53,7 @@ h2 {
 nav {
     display: flex;
     justify-content: space-around;
-    align-items: flex-end; /* Align items to the bottom */
-    padding-bottom: 50px; /* Add padding at the bottom */
+    padding-bottom: 5px; /* Add padding at the bottom */
     background-color: #333333; /* Dark gray background color */
 }
 
