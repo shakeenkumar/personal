@@ -71,7 +71,7 @@ nav a {
 }
 
 footer {
-    padding: 25px 50px;
+    padding: 5px 50px;
 }
 
 footer .social img {
@@ -119,7 +119,7 @@ footer {
     box-sizing: border-box;
 }
 footer {
-    padding: 25px 50px;
+    padding: 5px 10px;
     margin-top: 200px;
     background-color: #6f7364;
     display: flex;
@@ -241,12 +241,7 @@ nav {
 }
 
 .eco-friendly-card {
-    grid-column: 5 / span 3;
-    grid-row: 2 / span 1;
-}
-
-.environmental-blog-card {
-    grid-column: 8 / span 3;
+    grid-column: 7 / span 3;
     grid-row: 2 / span 1;
 }
 
@@ -409,11 +404,7 @@ h4 {
     color: #ffffff; /* White text color on hover */
 }
 
-/* Set the height and background color for the background div */
-#background {
-    height: 725px;
-    background-color: #0077cc; /* Blue background color */
-}
+/* Set the height and background color for the background div
 
 /* Background color for the .msg element */
 .msg {
